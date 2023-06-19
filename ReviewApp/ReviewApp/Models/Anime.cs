@@ -8,5 +8,8 @@ namespace ReviewApp.Models
         public string Name { get; set; }    
         public DataSetDateTime BroadcastDate { get; set; }
         public ICollection<Review> Reviews { get; set; }
+
+        public ICollection<AnimeStudio> AnimeStudios { get; set; }
+        public ICollection<AnimeCategory> AnimeCategories { get; set; } 
     }
 }

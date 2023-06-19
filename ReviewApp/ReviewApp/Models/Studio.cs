@@ -6,5 +6,6 @@
         public string Name { get; set; }    
         public string Style { get; set; } 
         public Location Location  { get; set; }
+        public ICollection<AnimeStudio> AnimeStudios { get; set; }
     }
 }
